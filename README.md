@@ -2,6 +2,10 @@
 
 A simple backend REST API for a blog built using NestJS, Prisma, PostgreSQL and Swagger. 
 
+## Docs
+
+- https://www.prisma.io/blog/nestjs-prisma-rest-api-7D056s1BmOL0
+
 ### Installation
 1. Install dependencies: `npm install`
 2.  Install  SQLite
