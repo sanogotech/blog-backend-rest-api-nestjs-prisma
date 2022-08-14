@@ -13,7 +13,7 @@ A simple backend REST API for a blog built using NestJS, Prisma, PostgreSQL and 
 ```
   npm install --save sqlite3
 ```
-* schema.database
+* prisma/schema.prisma
 ```
 datasource db {
   # provider = "postgresql"
