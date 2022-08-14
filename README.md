@@ -28,7 +28,9 @@ docker-compose up -d
 ```
     - If you have a local instance of PostgreSQL running, you can skip this step. In this case, you will need to change the `DATABASE_URL` inside the `.env` file with a valid [PostgreSQL connection string](https://www.prisma.io/docs/concepts/database-connectors/postgresql#connection-details) for your database. 
 4. Apply database migrations: 
-``` npx prisma migrate dev```
+``` 
+npx prisma migrate dev
+```
 5. Start the project:  
 ```
 npm run start:dev
