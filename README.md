@@ -13,7 +13,14 @@ A simple backend REST API for a blog built using NestJS, Prisma, PostgreSQL and 
 ```
   npm install --save sqlite3
 ```
-
+* schema.database
+```
+datasource db {
+  # provider = "postgresql"
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+```
 3. Start a PostgreSQL database with docker using: 
 
 ```
